@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:900);
+body {
+background: url(http://imgur.com/RMik2tk.png) -10% repeat-y rgba(220, 224, 240, 0.25);
+background-size: 38%
+}
+
+@media (min-width: 1200px) {
+h1 {
+font-size: 8em;
+}
+h2 {
+font-size: 2.5em;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+h1 {
+font-size: 6em;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+h1 {
+font-size: 6em;
+}
+}
+
+@media (max-width: 768px) {
+body {
+background-image: none;
+}
+h1 {
+font-size: 3em;
+}
+h2 {
+font-size: 1.5em;
+}
+ul li {
+font-size: 0.9em;
+}
+}
+
+@media (min-width: 768px) {
+.container {
+max-width: 768px;
+}
+#dixie-img {
+margin-bottom: 20px;
+}
+}
+
+#heading {
+text-align: center;
+}
+
+h1,
+h2 {
+font-family: 'Merriweather', sans-serif;
+color: rgb(12, 14, 186);
+}
+
+ul {
+margin-top: 30px;
+vertical-align: middle;
+font-size: 1.44em;
+}
+ul li{
+margin: 20px auto;
+}
+
+#dixie-img {
+min-width: 150px;
+border: 20px solid white;
+}
+
+p {
+font-size: 1.2em;
+line-height: 1.7em;
+}
+
+#dixie-block {
+margin: 15px auto;
+}
+
+caption{
+caption-side: bottom;
+}
+
+footer {
+background-color: #4a4d56;
+padding: 10px;
+text-align: right;
+color: white;
+}
